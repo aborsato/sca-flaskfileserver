@@ -1,5 +1,6 @@
 # Flask File Server
-Sample file server that checks user credentials in a Database. Written in Python/Flask.
+Sample file server that checks user credentials and business rules in a Database. Written in Python/Flask.
+> **IMPORTANT**: this sample code is not intended for production use. Please, feel free to use it for learning purposes and adapt it for your own requirements.
 
 ## Set Up
 Clone (or download) this repo and create a virtual environment.
@@ -22,7 +23,6 @@ sqlite> select * from metadata;
 The `OLDFILE` file has an `uoloaded_date` set to more than one year in the past to test the logic that bypasses the owner for old files. The ``
 
 ## Run
-
 You can start the server by running:
 ```bash
 python main.py
